@@ -1,0 +1,102 @@
+.container_1 {
+  width: 100%;
+  height: 100%;
+  background-color: #2e788d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.container_1::after {
+  content: '';
+  position: absolute;
+  width: 51.2%;
+  height: 100%;
+  background-color: rgb(235, 211, 181);
+  left: 0;
+}
+.center {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.container_number {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+}
+.one_one{
+  position: absolute;
+  width: 6%;
+  height: 100%;
+  background-color: rgb(48, 46, 46);
+  z-index: 3;
+  left: 30%;
+  border: 2px solid #3034431a;
+  box-shadow: 7px 0px 10px 0px #ebd3b5;
+}
+.one_two{
+  position: absolute;
+  width: 6%;
+  height: 47%;
+  background-color: rgb(48, 46, 46);
+  transform: rotate(45deg);
+  z-index: 2;
+  left: 25.5%;
+}
+.zero_one{
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  border-radius: 100%;
+  left: 34%;
+  z-index: 2;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 40px solid rgb(48, 46, 46);
+  box-shadow: 7px 0px 10px 0px #ebd3b5;
+}
+.zero_two {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 40px solid rgb(48, 46, 46);
+  z-index: inherit;
+  left: 54%;
+  box-shadow: 7px 0px 10px 0px #ebd3b5;
+}
+.days {
+  line-height: 1;
+  font-size: 160px;
+  font-weight: 700;
+  z-index: 1;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  margin: 0;
+  background: linear-gradient(to right, #2e788d 52%, rgb(235, 211, 181) 48%);
+  display: inline-block;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.css {
+  padding-left: 1%;
+  line-height: 1;
+  font-size: 50px;
+  font-weight: 800;
+  overflow: hidden;
+  letter-spacing: 0.18em;
+  z-index: 1;
+  background: linear-gradient(to right, #2e788d 52%, rgb(235, 211, 181) 48%);
+  display: inline-block;
+  color: transparent;
+  -webkit-background-clip: text;
+}
